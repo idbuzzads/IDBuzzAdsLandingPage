@@ -102,7 +102,7 @@ export default function Hero({ onReserveClick, onViewRoutesClick }: HeroProps) {
             <div className="relative group">
               <div className="absolute inset-0 bg-emerald-400 blur-2xl opacity-40 rounded-2xl"></div>
               <div className="relative bg-white/90 backdrop-blur rounded-2xl shadow-xl p-6 text-center transition-transform duration-300 group-hover:-translate-y-1">
-                <div className="text-3xl font-bold text-emerald-600 mb-1">48</div>
+                <div className="text-3xl font-bold text-emerald-600 mb-1">24</div>
                 <div className="text-sm text-gray-700">Months</div>
               </div>
             </div>
