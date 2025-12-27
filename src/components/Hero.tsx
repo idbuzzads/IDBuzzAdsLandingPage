@@ -48,7 +48,7 @@ export default function Hero({ onReserveClick, onViewRoutesClick }: HeroProps) {
         <div className="text-center max-w-4xl mx-auto">
 
           <div className="inline-block mb-6 px-5 py-2 bg-fuchsia-100 text-fuchsia-700 rounded-full text-sm font-semibold shadow">
-            Proof of Concept • 48 Months • Full Transparency
+            Proof of Concept • 24 Months • Full Transparency
           </div>
 
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight tracking-tight">
