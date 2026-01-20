@@ -70,7 +70,7 @@ export default function About() {
                 Zero Profit Model
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                All revenue strictly covers vehicle costs over 48 months with no markup or margin
+                All revenue strictly covers vehicle costs over 24 months with no markup or margin
               </p>
             </div>
           </div>
