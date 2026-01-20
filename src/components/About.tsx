@@ -102,7 +102,7 @@ export default function About() {
            </h3>
 
 <p className="text-lg leading-relaxed text-white/90 max-w-4xl mb-6">
-  This is a 48-month proof of concept designed to prove that mobile advertising can be both powerful and completely transparent. This project is not built for profit. Every dollar collected is used solely to cover the cost of the vehicle. By exposing all operational and financial data publicly, the goal is to create maximum trust with local businesses and give them absolute clarity on their investment.
+  This is a 24-month proof of concept designed to prove that mobile advertising can be both powerful and completely transparent. This project is not built for profit. Every dollar collected is used solely to cover the cost of the vehicle. By exposing all operational and financial data publicly, the goal is to create maximum trust with local businesses and give them absolute clarity on their investment.
 </p>
 
 <p className="text-lg leading-relaxed text-white font-semibold">
