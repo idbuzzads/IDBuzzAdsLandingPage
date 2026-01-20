@@ -42,7 +42,7 @@ export default function PanelTiers({ onSelectPanel }: PanelTiersProps) {
       text: 'text-fuchsia-600',
       badge: 'bg-fuchsia-500',
       button: 'bg-fuchsia-500 hover:bg-fuchsia-600',
-      price: '$136.05',
+      price: '$120.41',
     },
     {
       size: 'medium' as const,
