@@ -54,7 +54,7 @@ export default function About() {
                 15 Ad Panels
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                5 small, 1 medium, and 9 large panels positioned for maximum visibility city-wide
+                3 small, 5 medium, and 7 large panels positioned for maximum visibility city-wide
               </p>
             </div>
           </div>
