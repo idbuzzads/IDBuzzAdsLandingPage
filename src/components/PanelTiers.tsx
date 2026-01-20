@@ -61,7 +61,7 @@ export default function PanelTiers({ onSelectPanel }: PanelTiersProps) {
       text: 'text-amber-500',
       badge: 'bg-amber-400',
       button: 'bg-amber-400 hover:bg-amber-500',
-      price: '$204.08',
+      price: '$180.62',
     },
     {
       size: 'large' as const,
@@ -83,7 +83,7 @@ export default function PanelTiers({ onSelectPanel }: PanelTiersProps) {
       badge: 'bg-violet-500',
       button: 'bg-violet-500 hover:bg-violet-600',
       highlight: true,
-      price: '$272.10',
+      price: '$240.82',
     },
   ];
 
