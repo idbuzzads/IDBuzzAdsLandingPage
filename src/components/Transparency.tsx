@@ -2,8 +2,8 @@ import { DollarSign, TrendingUp, Package, PieChart } from 'lucide-react';
 
 // STATIC METRICS — NO MOCK PANEL DATA
 const staticMetrics = {
-  vehicle_cost: 80000,
-  monthly_payment: 3333,
+  vehicle_cost: 59000,
+  monthly_payment: 2950,
   operating_costs: {
     Vinyl: 0,
     charging: 0,
