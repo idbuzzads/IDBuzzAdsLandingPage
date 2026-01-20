@@ -1,6 +1,13 @@
 import { BarChart3, Map, Eye, DollarSign, Camera } from 'lucide-react';
 
 export default function DashboardPreview() {
+  const scrollToUploadPreview = () => {
+    const element = document.getElementById('upload-preview');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,7 +21,11 @@ export default function DashboardPreview() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          <div className="bg-white bg-opacity-10 backdrop-blur-lg rounded-2xl p-6 border border-white border-opacity-20 hover:bg-opacity-15 transition-all">
+          {/* CLICKABLE WIDGET */}
+          <div
+            onClick={scrollToUploadPreview}
+            className="cursor-pointer bg-white bg-opacity-10 backdrop-blur-lg rounded-2xl p-6 border border-white border-opacity-20 hover:bg-opacity-15 hover:scale-[1.02] transition-all"
+          >
             <div className="w-12 h-12 bg-sky-500 rounded-full flex items-center justify-center mb-4">
               <Eye className="w-6 h-6 text-white" />
             </div>
@@ -85,24 +96,6 @@ export default function DashboardPreview() {
               Your advertiser dashboard provides 24/7 access to all performance metrics, route data, and financial
               transparency information. No hidden data—see everything we see, whenever you want.
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div className="text-center">
-                <div className="text-3xl font-bold mb-2">24/7</div>
-                <div className="text-sm text-sky-200">Dashboard Access</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold mb-2">100%</div>
-                <div className="text-sm text-sky-200">Data Transparency</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold mb-2">Real-Time</div>
-                <div className="text-sm text-sky-200">GPS Tracking</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold mb-2">Daily</div>
-                <div className="text-sm text-sky-200">Report Updates</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
