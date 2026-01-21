@@ -72,10 +72,6 @@ export default function UploadPreview({
             <Upload className="w-10 h-10 text-gray-400" />
           </div>
 
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Upload & Preview Your Logo
-          </h2>
-
           <p className="text-lg text-gray-600">
             Explore the van in 3D, select a panel, and preview your artwork in real time
           </p>
