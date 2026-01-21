@@ -31,10 +31,10 @@ export default function VanInteractive({ selectedPanel }: VanInteractiveProps) {
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
 
   const [corners, setCorners] = useState<Corner[]>([
-    { x: 100, y: 100 },
-    { x: 400, y: 100 },
-    { x: 400, y: 300 },
-    { x: 100, y: 300 },
+    { x: 299, y: 301 },
+    { x: 454, y: 294 },
+    { x: 454, y: 421 },
+    { x: 312, y: 421 },
   ]);
 
   const [isActive, setIsActive] = useState(true);
