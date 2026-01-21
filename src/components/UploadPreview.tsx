@@ -15,7 +15,6 @@ export default function UploadPreview({
   previewImage,
   onClearImage,
 }: UploadPreviewProps) {
-  const [dragActive, setDragActive] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleDrag = (e: React.DragEvent) => {
