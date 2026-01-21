@@ -73,7 +73,7 @@ export default function UploadPreview({
               Upload & Preview Your Artwork
             </h2>
             <p className="text-lg text-gray-600">
-              Select a panel above to upload and preview your design
+              Position the preview panel on the vehicle and add your logo
             </p>
           </div>
         </div>
