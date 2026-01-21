@@ -60,8 +60,12 @@ export default function UploadPreview({
     fileInputRef.current?.click();
   };
 
-  return (
-    
+  return ( 
+    <>
+      {/* ===============================
+          UPLOAD & PREVIEW HEADER
+          (Below van image, above 3D + points)
+      ================================ */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
