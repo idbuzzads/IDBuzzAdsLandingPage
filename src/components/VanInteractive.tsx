@@ -32,7 +32,7 @@ export default function VanInteractive({ selectedPanel }: VanInteractiveProps) {
 
   const [corners, setCorners] = useState<Corner[]>([
     { x: 323, y: 322 },
-    { x: 458, y: 314 },
+    { x: 383, y: 314 },
     { x: 489, y: 450 },
     { x: 336, y: 455 },
   ]);
