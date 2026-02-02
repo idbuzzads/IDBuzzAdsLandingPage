@@ -210,9 +210,9 @@ export default function ReservationForm({ selectedPanel, previewImage, onClose }
                 onChange={handleChange}
                 className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-sky-500 focus:ring focus:ring-sky-200 transition-colors"
               >
-                <option value="small">Small (12" × 18") - $299/month</option>
-                <option value="medium">Medium (24" × 36") - $499/month</option>
-                <option value="large">Large (36" × 48") - $799/month</option>
+                <option value="small">Small - $120.41/month</option>
+                <option value="medium">Medium - $180.62/month</option>
+                <option value="large">Large - $240.82/month</option>
               </select>
             </div>
 
