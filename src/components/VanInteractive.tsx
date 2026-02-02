@@ -34,7 +34,7 @@ export default function VanInteractive({ selectedPanel }: VanInteractiveProps) {
     { x: 318, y: 323 },
     { x: 313, y: 484 },
     { x: 489, y: 450 },
-    { x: 800, y: 414 },
+    { x: 484, y: 312 },
   ]);
 
   const [isActive, setIsActive] = useState(true);
