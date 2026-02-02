@@ -205,7 +205,7 @@ export default function PanelTiers({ onSelectPanel }: PanelTiersProps) {
         <div className="mt-16 text-center max-w-4xl mx-auto">
           <p className="text-sm text-gray-500 leading-relaxed">
             Pricing shown is an estimated projection based on an assumed vehicle
-            value of $70,000 financed over 24 months. Final panel pricing will be
+            value of $59,000 + Fees - financed over 24 months. Final panel pricing will be
             recalculated and locked in, once the vehicle purchase is completed and
             actual costs are confirmed.
           </p>
